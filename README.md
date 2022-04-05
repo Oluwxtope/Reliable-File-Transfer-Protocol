@@ -1,2 +1,1 @@
-# Reliable File Transfer
-
+# Reliable File Transfer Protocol

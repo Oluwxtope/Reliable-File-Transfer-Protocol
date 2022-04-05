@@ -1,10 +1,12 @@
+README.txt
+.DS_Store
+__pycache__
 CS436-A2-Marking.pdf
 cs436-A2-w222.pdf
-.DS_Store
-test.txt
 test.py
+send.txt
+received.txt
 ack.log
 seqnum.log
 arrival.log
 drop.log
-new.txt
