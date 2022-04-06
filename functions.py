@@ -1,9 +1,12 @@
 from socket import *
 
-# constants
-ack_type = 0 # ack packet
-data_type = 1 # data packet
-eot_type = 2 # end of transmission packet
+# packet types
+# ack packet: ack = 0, seqnum = seqnuence num of packet being acked, len = 0, data = ""
+ack_type = 0
+# data packet: data = 1, seqnum = seqnuence num of packet, len = length of data, data = str data
+data_type = 1
+# eot packet: eot = 2, seqnum = -1, len = 0, data = ""
+eot_type = 2
 
 # parse_data(filename) ->  opens filename, reads and returns content in data string
 def parse_data(filename: str) -> str:
